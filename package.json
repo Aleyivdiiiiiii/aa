@@ -1,0 +1,19 @@
+{
+  "name": "Telegram_Bot",
+  "version": "1.0.2",
+  "description": "Eğitim amaçlı basit bir telegram botu.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["telegram", "bot"],
+  "author": "https://t.me/botsohbet",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "telegraf": "^4.3.0"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
