@@ -17,7 +17,7 @@ bot.start((ctx) => {
 
 bot.hears(/selam/ig, async (ctx, next) => {
     await ctx.telegram.sendPhoto(ctx.chat.id,
-        'https://www.ajanskirim.com/wp-content/uploads/2019/03/1525995635Merhaba.jpg',
+        'https://telegra.ph/file/f257ac88cdf61b278c4db.jpg',
         { caption:  `<b>${ctx.from.first_name}</b>`,  parse_mode: 'HTML' })
     return next();
 });
