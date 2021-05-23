@@ -28,7 +28,7 @@ bot.command('botsohbet', async (ctx, next) => {
     await bot.telegram.sendDocument(ctx.chat.id, {
         source: './dosyalar/botsohbet.mp4'
     }, {
-        filename: 'botsohbet.mp4',
+        filename: 'botsohbet.gif',
         caption: 'https://t.me/botsohbet'
     })
     return next()
