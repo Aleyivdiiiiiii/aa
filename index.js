@@ -11,7 +11,7 @@ const config = require('./config');
 
 // Bota start verdiğinizde atılan ilk mesaj
 bot.start((ctx) => {
-    return ctx.reply("Hey");
+    return ctx.reply("Salamm");
 });
 
 
@@ -26,7 +26,7 @@ bot.hears(/selam/ig, async (ctx, next) => {
 bot.command('botsohbet', async (ctx, next) => {
     
     await bot.telegram.sendDocument(ctx.chat.id, {
-        source: './dosyalar/botsohbet.mp4'
+        source: './dosyalar/botsohbet.gif'
     }, {
         filename: 'botsohbet.gif',
         caption: 'https://t.me/botsohbet'
