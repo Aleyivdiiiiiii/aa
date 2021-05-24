@@ -26,10 +26,10 @@ bot.hears(/selam/ig, async (ctx, next) => {
 bot.command('botsohbet', async (ctx, next) => {
     
     await bot.telegram.sendDocument(ctx.chat.id, {
-        source: './dosyalar/botsohbet.gif'
+        source: './fotolar/salam.jpg'
     }, {
-        filename: 'botsohbet.gif',
-        caption: '@SirinCayBoss Test'
+        filename: 'salam.jpg',
+        caption: 'Necəsən?'
     })
     return next()
     
