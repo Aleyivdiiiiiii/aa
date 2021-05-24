@@ -18,7 +18,7 @@ bot.start((ctx) => {
 bot.hears(/Salam/ig, async (ctx, next) => {
     await ctx.telegram.sendPhoto(ctx.chat.id,
         'https://telegra.ph/file/b6d46ca9d253032306c9c.jpg',
-        { caption:  `<b>$Necəsən${ctx.from.first_name}</b>`,  parse_mode: 'HTML' })
+        { caption:  `<b>Necəsən? ${ctx.from.first_name} , Mən @SirinCayBoss'un Test Botuyam🤖\nTanışdığımıza Məmnun Oldum🥰</b>`,  parse_mode: 'HTML' })
     return next();
 });
 
