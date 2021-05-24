@@ -22,6 +22,13 @@ bot.hears(/Salam/ig, async (ctx, next) => {
     return next();
 });
 
+bot.hears(/AST/ig, async (ctx, next) => {
+    await ctx.telegram.sendPhoto(ctx.chat.id,
+        'https://telegra.ph/file/529385f52828c44aaf6bc.jpg',
+        { caption:  `<b>Salam ${ctx.from.first_name} Rəsmi Kanalımız @Anti55📣\nKanalda sizə, Premium, Mod, Crack, Pro proqramlar, oyunlar və s. kimi bir çox yararlı informasiyalar təqdim edirik✅\n Hər hansısa çətinliklə bağlı dəstək qrupumuza qoşulun👇🏻\n@texnologiya555 👨🏼‍💻</b>`,  parse_mode: 'HTML' })
+    return next();
+});
+
 bot.hears(/selam/ig, async (ctx, next) => {
     await ctx.telegram.sendPhoto(ctx.chat.id,
         'https://telegra.ph/file/f257ac88cdf61b278c4db.jpg',
