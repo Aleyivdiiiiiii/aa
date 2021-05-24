@@ -18,14 +18,14 @@ bot.start((ctx) => {
 bot.hears(/Salam/ig, async (ctx, next) => {
     await ctx.telegram.sendPhoto(ctx.chat.id,
         'https://telegra.ph/file/b6d46ca9d253032306c9c.jpg',
-        { caption:  `<b>${ctx.from.first_name}</b>`,  parse_mode: 'HTML' })
+        { caption:  `<b>$Necəsən? {ctx.from.first_name}</b>`,  parse_mode: 'HTML' })
     return next();
 });
 
 bot.hears(/selam/ig, async (ctx, next) => {
     await ctx.telegram.sendPhoto(ctx.chat.id,
         'https://telegra.ph/file/f257ac88cdf61b278c4db.jpg',
-        { caption:  `<b>$Necəsən? {ctx.from.first_name}</b>`,  parse_mode: 'HTML' })
+        { caption:  `<b>${ctx.from.first_name}</b>`,  parse_mode: 'HTML' })
     return next();
 });
 
@@ -42,7 +42,7 @@ bot.command('salam', async (ctx, next) => {
 })
 
 
-bot.command('komut', async (ctx, next) => {
+bot.command('ad', async (ctx, next) => {
     await ctx.telegram.sendMessage(ctx.chat.id, `<b>${ctx.from.first_name}</b>`, { parse_mode: 'HTML' })
     return next();
 });
