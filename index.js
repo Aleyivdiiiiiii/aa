@@ -29,7 +29,7 @@ bot.command('botsohbet', async (ctx, next) => {
         source: './dosyalar/botsohbet.gif'
     }, {
         filename: 'botsohbet.gif',
-        caption: 'https://t.me/botsohbet'
+        caption: '@SirinCayBoss Test'
     })
     return next()
     
