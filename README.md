@@ -18,4 +18,4 @@ _Düyməni basın, qutuları doldurun və heroku serverinizə qoşun._
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 
-Bot yazmaqda istifadə olunan kitabxana: [telegraf.js](https://telegraf.js.org)
+**Bot yazmaqda istifadə olunan kitabxana:** [telegraf.js](https://telegraf.js.org)
