@@ -8,7 +8,7 @@ Bot'un İşləyən bir nümunəsi: [Tülkü 🦊](https://t.me/nicklibot)
 
 _Bu repoyu hesabınıza "Fork" edin və .env faylını açın [@BotFather](https://t.me/botfather)'dan aldığınız tokeni BOT_API yerine yapıştırın ve Heroku'dan aldığınız bağlantıyı URL yerine yapıştırın daha sonra Heroku serverivizə deploy edin.
 
-Ətraflı izahat üçün:[Klik Et]()._
+_Ətraflı izahat üçün:[Klik Et]()_
 
 
 **Bu necə işləyir ?** (Yeni yol)
