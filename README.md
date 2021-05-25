@@ -1,6 +1,6 @@
-# **Heroku'da Webhook İle Çalışan Deneysel Bir Bot**
+# **Herokudaç Webhook ilə İşləyən Eksperimental Bot**
 
-Çalışan bir örnek: [T-Rex 🦖](https://t.me/tiranozorbot) 
+Bot'un İşləyən bir nümunəsi: [T-Rex 🦖](https://t.me/tiranozorbot) 
 
 Webhook site: https://deneyselbot.herokuapp.com/
 
