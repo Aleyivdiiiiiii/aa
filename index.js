@@ -52,7 +52,7 @@ bot.catch((err) => {
     console.log('Error: ', err)
 })
 
-// Botun kullanıcı adını alan bir kod.
+// Botun adını alan kod
 bot.telegram.getMe().then(botInfo => {
     bot.options.username = botInfo.username
     console.log(`Bot Başlatıldı! => ${bot.options.username}`)
