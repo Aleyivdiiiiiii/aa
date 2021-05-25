@@ -1,22 +1,19 @@
 # **Herokudaç Webhook ilə İşləyən Eksperimental Bot**
 
-Bot'un İşləyən bir nümunəsi: [T-Rex 🦖](https://t.me/tiranozorbot) 
-
-Webhook site: https://deneyselbot.herokuapp.com/
+Bot'un İşləyən bir nümunəsi: [Tülkü 🦊](https://t.me/nicklibot) 
 
 
 
-**Nasıl Çalışır ?** (Eski yol)
+**Bu necə işləyir ? ?** (Köhnə yol)
 
-_Bu depoyu kendi hesabınıza "Fork" yapın ve .env dosyasını açıp [@BotFather](https://t.me/botfather)'dan aldığınız tokeni BOT_API yerine yapıştırın ve Heroku'dan aldığınız bağlantıyı URL yerine yapıştırın daha sonra Heroku sunucunuza deploy edin detaylı anlatım için: [Tıklayın](https://telegra.ph/KENDİ-TELEGRAM-BOTUNUZU-YAPIN-09-11)._
+_Bu repoyu hesabınıza "Fork" edin və .env faylını açın [@BotFather](https://t.me/botfather)'dan aldığınız tokeni BOT_API yerine yapıştırın ve Heroku'dan aldığınız bağlantıyı URL yerine yapıştırın daha sonra Heroku serverivizə deploy edin. Ətraflı izahat üçün: [Klik Et]()._
 
 
-**Nasıl Çalışır ?** (Yeni yol)
+**Bu necə işləyir ?** (Yeni yol)
 
-_Butona basın kutuları doldurun ve heroku sunucunuza dağıtın._
+_Düyməni basın, qutuları doldurun və heroku serverinizə qoşun._
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-Detaylı Bilgi İçin: [Buraya Tıkla](https://telegra.ph/KENDİ-TELEGRAM-BOTUNUZU-YAPIN-09-11)
 
-Botun Yazımında Kullanılan Kütüphane: [telegraf.js](https://telegraf.js.org)
+Bot yazmaqda istifadə olunan kitabxana: [telegraf.js](https://telegraf.js.org)
