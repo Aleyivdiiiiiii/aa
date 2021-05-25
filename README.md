@@ -4,14 +4,14 @@ Bot'un İşləyən bir nümunəsi: [Tülkü 🦊](https://t.me/nicklibot)
 
 
 
-**Bu necə işləyir ?** (Köhnə yol)
+**Botu necə quraq ?** (Köhnə yol)
 
-_Bu repoyu hesabınıza "Fork" edin və .env faylını açın [@BotFather](https://t.me/botfather)'dan aldığınız tokeni BOT_API yerine yapıştırın ve Heroku'dan aldığınız bağlantıyı URL yerine yapıştırın daha sonra Heroku serverivizə deploy edin.
+_Bu repoyu hesabınıza "Fork" edin və .env faylını açın [@BotFather](https://t.me/botfather)'dan aldığınız tokeni BOT_API yerine yapıştırın ve Heroku'dan aldığınız bağlantıyı URL yerine yapıştırın daha sonra Heroku serverivizə deploy edin._
 
 _Ətraflı izahat üçün:[Klik Et]()_
 
 
-**Bu necə işləyir ?** (Yeni yol)
+**Botu necə quraq ?** (Yeni yol)
 
 _Düyməni basın, qutuları doldurun və heroku serverinizə qoşun._
 
