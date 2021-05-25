@@ -14,7 +14,7 @@ bot.start((ctx) => {
     return ctx.reply("Salamm");
 });
 
-
+// Təyin etidiyimiz sözə avtomatik cavab atar
 bot.hears(/Salam/ig, async (ctx, next) => {
     await ctx.telegram.sendPhoto(ctx.chat.id,
         'https://telegra.ph/file/b6d46ca9d253032306c9c.jpg',
@@ -22,20 +22,7 @@ bot.hears(/Salam/ig, async (ctx, next) => {
     return next();
 });
 
-bot.hears(/AST/ig, async (ctx, next) => {
-    await ctx.telegram.sendPhoto(ctx.chat.id,
-        'https://telegra.ph/file/529385f52828c44aaf6bc.jpg',
-        { caption:  `<b>Salam ${ctx.from.first_name} Rəsmi Kanalımız @Anti55📣\nKanalda sizə, Premium, Mod, Crack, Pro proqramlar, oyunlar və s. kimi bir çox yararlı informasiyalar təqdim edirik✅\n Hər hansısa çətinliklə bağlı dəstək qrupumuza qoşulun👇🏻\n@texnologiya555 👨🏼‍💻</b>`,  parse_mode: 'HTML' })
-    return next();
-});
-
-bot.hears(/selam/ig, async (ctx, next) => {
-    await ctx.telegram.sendPhoto(ctx.chat.id,
-        'https://telegra.ph/file/f257ac88cdf61b278c4db.jpg',
-        { caption:  `<b>${ctx.from.first_name}</b>`,  parse_mode: 'HTML' })
-    return next();
-});
-
+//Əmrlər təyin edirik
 bot.command('salam', async (ctx, next) => {
     
     await bot.telegram.sendDocument(ctx.chat.id, {
@@ -60,7 +47,7 @@ bot.use(
     require('./plugin')
 );
 
-// Kodlarda hata çıkarsa bunun sayesinde çalışmaya devam eder.
+// Kodlarda bir səhv varsa, bunun sayəsində işləməyə davam edər.
 bot.catch((err) => {
     console.log('Error: ', err)
 })
@@ -71,12 +58,12 @@ bot.telegram.getMe().then(botInfo => {
     console.log(`Bot Başlatıldı! => ${bot.options.username}`)
 })
 
-// Heroku sitesinde botunuzun kullanıcı adı gözükür -> deneyselbot.herokuapp.com
+// Heroku saytında log yerində botunuzun adını göstərər -> sadebot.herokuapp.com
 const cb = function(req, res) {
     res.end(`${bot.options.username}`)
 }
 
-// Botun webhook ile çalışmasını sağlar.
+// Botun weebhook ilə işləməsinə imkan verir.
 bot.launch({
     webhook: {
         domain: `${URL}`,
@@ -85,6 +72,6 @@ bot.launch({
     }
 })
 
-// Bu botumuzu nazikçe durdurmayı etkinleştirir.
+// Bu, botumuzu yavaşca dayandırmağa imkan verir.
 process.once('SIGINT', () => bot.stop('SIGINT'))
 process.once('SIGTERM', () => bot.stop('SIGTERM'))
