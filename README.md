@@ -1,12 +1,13 @@
-# **Herokudaç Webhook ilə İşləyən Eksperimental Bot**
+# **Herokuda Webhook ilə İşləyən Eksperimental Bot**
 
 Bot'un İşləyən bir nümunəsi: [Tülkü 🦊](https://t.me/nicklibot) 
 
 
 
-**Bu necə işləyir ? ?** (Köhnə yol)
+**Bu necə işləyir ?** (Köhnə yol)
 
-_Bu repoyu hesabınıza "Fork" edin və .env faylını açın [@BotFather](https://t.me/botfather)'dan aldığınız tokeni BOT_API yerine yapıştırın ve Heroku'dan aldığınız bağlantıyı URL yerine yapıştırın daha sonra Heroku serverivizə deploy edin. Ətraflı izahat üçün: [Klik Et]()._
+_Bu repoyu hesabınıza "Fork" edin və .env faylını açın [@BotFather](https://t.me/botfather)'dan aldığınız tokeni BOT_API yerine yapıştırın ve Heroku'dan aldığınız bağlantıyı URL yerine yapıştırın daha sonra Heroku serverivizə deploy edin. Ətraflı izahat üçün:
+[Klik Et]()._
 
 
 **Bu necə işləyir ?** (Yeni yol)
